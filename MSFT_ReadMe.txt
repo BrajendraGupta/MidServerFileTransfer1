@@ -46,9 +46,9 @@ Create Script action
 ServiceNow does not support GlideImportSetLoader and GlideImportSetTransformer classes in scoped application. To load the data in import set and transform these classes are needed. So we will need to create a copy of scoped script action file in global scope.
 
 Steps to make change:
-1. Go to script actions and search for "MSFI_Process Data Source"
+1. Go to script actions and search for "MSFT_Process Data Source"
 2. right click on head and select "insert and stay". This will create copy of script action in global scope (ensure that your in global scope)
-3. Change file name to "MSFI_Process Data Source Global" (just to distinguish between two script actions)
+3. Change file name to "MSFT_Process Data Source Global" (just to distinguish between two script actions)
 4. Select the checkbox in active field
 5. Save the record.
 
